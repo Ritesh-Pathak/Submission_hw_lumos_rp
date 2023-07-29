@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #85adb4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Title{
+  background-color: chocolate;
+  font-style: italic;
+  
+}
+.Generator{
+  background-color: rgb(170, 199, 9);
+  border: 0cap;
+  border-radius: 25cm;
+  border-color: brown;
+  text-decoration-color: orange;
+}
+
+.Quote{
+  font: italic;
+  border:yellow;
+  font-style: italic;
+  font-size:larger;
+  color: rgb(240, 50, 50);
+
+}
+.author{
+  font-style: oblique;
+  font-weight: 300;
+  text-decoration: underline;
+  border: rgb(7, 69, 240) solid;
+  padding: 0.5cm;
+  border-radius: 25cm;
+}
+
+.form{
+  font-style: oblique;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.name{
+  color: rgb(241, 80, 88);
+  font-weight: 600;
+}
+
+.quoteForm{
+  color: rgb(241, 80, 88);
+  font-weight: 600;
+}
+
+.box1{
+  border-radius: 15cm;
+  background-color: rgb(235, 229, 153);
+  
+}
+
+.box2{
+  border-radius: 15cm;
+  background-color: rgb(235, 229, 153);
+}
+
+.submit{
+  border-radius: 10cm;
+  background-color: darkseagreen;
+}
